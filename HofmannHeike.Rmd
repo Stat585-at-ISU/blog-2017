@@ -1,9 +1,0 @@
----
-title: "Literate Programming..."
-author: "Heike Hofmann"
-topic: "01"
-layout: post
-root: ../../../
----
-
-# My ideas to literate programming
