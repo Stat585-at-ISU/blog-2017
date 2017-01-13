@@ -19,7 +19,7 @@ In order to write TeX, Donald Knuth first invented `WEB`, a programming system t
 Watch Donald Knuth's lecture on Literate Programming given at useR!2016 [available here](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming).
 
 
-Based on the idea behind literate programming that Donald Knuth mentions in his sppech, 
+Based on the idea behind literate programming that Donald Knuth discusses in his talk, 
 write a blog post on how you have or could make use of literate programming in your work. 
 
 
