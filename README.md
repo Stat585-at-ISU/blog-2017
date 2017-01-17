@@ -8,3 +8,5 @@
 # Topics
 
 1. [What place does literate programming have in your workflow?](https://github.com/stat585-at-ISU/blog/blob/master/01/LastnameFirstname.Rmd) - Due Jan. 24
+
+# Dr. Genschel read the instructions 
