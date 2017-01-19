@@ -1,0 +1,94 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @Xiangmei21
+ Watch 0
+  Star 0
+  Fork 20 Xiangmei21/blog
+forked from Stat585-at-ISU/blog
+ Code  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+blog/01/ 
+LastnameFirstname.Rmd
+   or cancel
+    
+ Edit file    Preview changes
+1
+---
+2
+title: "Literate Programming..."
+3
+author: "Firstname Lastname"
+4
+topic: "01"
+5
+layout: post
+6
+root: ../../../
+7
+---
+8
+​
+9
+## Background:
+10
+​
+11
+Donald Knuth is maybe best known for his work on TeX, which made LaTeX possible, which in turn is being used in (all?) scientific publications ranging from papers to monographs across disciplines.
+12
+​
+13
+In order to write TeX, Donald Knuth first invented `WEB`, a programming system that combines text and code.  This is the first system implementation of "literate programming". Derived from  `WEB` is `noweb` (by Norman Ramsey), which introduces the concept of inter`weaving` text and code chunks.
+14
+​
+15
+`Sweave` (Friedrich Leisch, 2002) is an R package that uses `noweb` to interweave LaTeX and S-code ... and that brings us finally to `knitr` (Yihui Xie, 2012--), which is the package behind RWeave and RMarkdown. 
+16
+​
+17
+​
+18
+​
+19
+Watch Donald Knuth's lecture on Literate Programming given at useR!2016 [available here](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming).
+20
+​
+21
+​
+22
+Based on the idea behind literate programming that Donald Knuth discusses in his talk, 
+23
+write a blog post on **how you have or could make use of literate programming in your work**. 
+24
+​
+25
+​
+26
+## Instructions:
+27
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+28
+​
+29
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+30
+​
+31
+Once you are done, **create a pull request** to upload your changes to the original repository!
+32
+​
+33
+​
+@Xiangmei21
+Commit changes
+
+Update 
+
+Add an optional extended description…
+  Commit directly to the master branch.
+  Create a new branch for this commit and start a pull request. Learn more about pull requests.
+Commit changes  Cancel
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
