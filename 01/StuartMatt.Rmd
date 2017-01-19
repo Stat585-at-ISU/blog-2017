@@ -1,6 +1,6 @@
 ---
 title: "Literate Programming..."
-author: "Firstname Lastname"
+author: "Matt Stuart"
 topic: "01"
 layout: post
 root: ../../../
