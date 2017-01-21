@@ -12,6 +12,8 @@ Currently, I am a research assistant under the Center for Survey Statistics and 
 
 After we began using LaTex, I learned that in terms of writing a document, it was much simpler to use than Word.  So, I began writing homework assignments in LaTex as well as using Beamer to write a presentation for our survey working group.  Ever since, I have stopped using Word and using LaTex to write all of my homework assignments in which I don't use pen and paper.
 
+Also, STAT 579, as you all know, is about learning R and RMarkdown.  After writing the first couple of assignments in R and Word, I realized that RMarkdown combined the best of both R and LaTex when writing documents, so using that made doing my assignments in that class much less complicated.
+
 ## How I Will Use Literate Programming:
 
-Going forward, I will begin to use RMarkdown for documents in which I use R Code for weekly presentations for our survey team.  I will also use Markdown for homework assignments that use R Code as well.  Finally, LaTex and Markdown will be heavily used for my research when I am a graduate student still, such as my creative component and my dissertation.
+Going forward, I will continue to use RMarkdown for documents in which I use R Code for weekly presentations for our survey team.  I will also use Markdown for homework assignments that use R Code as well.  Finally, LaTex and Markdown will be heavily used for my research when I am a graduate student still, such as my creative component and my dissertation.
