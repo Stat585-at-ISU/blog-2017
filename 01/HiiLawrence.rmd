@@ -1,0 +1,10 @@
+---
+title: "Literate Programming..."
+author: "Lawrence Hii"
+topic: "01"
+layout: post
+root: ../../../
+---
+
+## Blog 1
+
