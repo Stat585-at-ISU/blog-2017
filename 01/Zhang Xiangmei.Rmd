@@ -6,27 +6,8 @@ layout: post
 root: ../../../
 ---
 
-## Background:
+I am a LaTeX beginner and trying to using this to give homework solutions as a teaching assistance this term. I like the TeX program because it gives beautiful typesetting, especially for mathematical formulas.
 
-Donald Knuth is maybe best known for his work on TeX, which made LaTeX possible, which in turn is being used in (all?) scientific publications ranging from papers to monographs across disciplines.
+As the speaker Donald Knuth said in this video, literate programming is written for human beings to read. It can produce high quality document and makes communication through papers more efficient and easier. And another advantage is it could give exactly the same document results on all computers for every people, this is important to spread the ideas precisely. I really appreciate Knuth's work especially when I need to write a document full of matrices and complex formulas, his program makes it easier to write a professional and readable article.
 
-In order to write TeX, Donald Knuth first invented `WEB`, a programming system that combines text and code.  This is the first system implementation of "literate programming". Derived from  `WEB` is `noweb` (by Norman Ramsey), which introduces the concept of inter`weaving` text and code chunks.
-
-`Sweave` (Friedrich Leisch, 2002) is an R package that uses `noweb` to interweave LaTeX and S-code ... and that brings us finally to `knitr` (Yihui Xie, 2012--), which is the package behind RWeave and RMarkdown. 
-
-
-
-Watch Donald Knuth's lecture on Literate Programming given at useR!2016 [available here](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming).
-
-
-Based on the idea behind literate programming that Donald Knuth discusses in his talk, 
-write a blog post on **how you have or could make use of literate programming in your work**. 
-
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
 
