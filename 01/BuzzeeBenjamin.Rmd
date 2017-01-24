@@ -1,0 +1,11 @@
+---
+title: "Blog on Literate Programming"
+author: "Ben Buzzee"
+topic: "01"
+layout: post
+root: ../../../
+---
+
+  I've used a primitive variation of literate programming to help me understand the metropolis hasting algorithm. I found that separating the code into small chunks and writing in plain english what I was trying to accomplish before each chunk significantly helped with understanding both the code and the algorithm.
+	I can see literate programming being particularly helpful when collaborating with others. Having the authors thoughts and intent available in plain english would make improving or modifying the code base significantly easier. As Donald Knuth mentioned in his talk, literate programming can also help programmers avoid biases in regards to how much code should be dedicated to a particular task in a program through modularization of the program.
+
