@@ -14,5 +14,5 @@ we need to build" and getting off track. I feel for extremely short programs for
 something fairly lengthy I would definitely use that method of chunk breaking. 
 
 I don't think I have ever done anything to check for parameters before in all honesty. I just learned some better coding techniques.
-This was actually a really nice talk once I got into it and got use to the stammer. I also now feel shameful for the terrible code I have
+This was actually a really nice talk once I got into it. I also now feel shameful for the terrible code I have
 written in the past where I am uncertain of what it does looking back. 
