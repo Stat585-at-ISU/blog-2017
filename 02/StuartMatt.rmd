@@ -1,6 +1,6 @@
 ---
 title: "Split-Apply-Combine..."
-author: "Firstname Lastname"
+author: "Matt Stuart"
 topic: "02"
 layout: post
 root: ../../../
