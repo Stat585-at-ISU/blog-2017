@@ -11,6 +11,10 @@ toc: true
 root: ../../../
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## Background:
 
 Donald Knuth is maybe best known for his work on TeX, which made LaTeX possible, which in turn is being used in (all?) scientific publications ranging from papers to monographs across disciplines.
