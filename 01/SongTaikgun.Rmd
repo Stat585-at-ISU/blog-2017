@@ -3,7 +3,8 @@ title: "Literate Programming..."
 author: "Taikgun Song"
 topic: "01"
 output:
-  html_document:
+  md_document:
+    variant: markdown_github
     toc: true
     toc_depth: 2
     theme: united
