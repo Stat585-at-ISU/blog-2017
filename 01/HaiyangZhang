@@ -1,0 +1,9 @@
+---
+title: "Literate Programming..."
+author: "Haiyang Zhang"
+topic: "01"
+layout: post
+root: ../../../
+---
+
+I think literate programming is a very good method to write R code with comments and other words or sentences. As Donald Knuth mentioned in the video, rather than writing the code with a computational logic or mathematics logic, it’s better and more clear to write the code in the order we’d like to think. And as I learned from some of my classmates, using LaTeX is actually very easy and can save a lot time, even if it looks hard at the first glance. Also, there is another good application of the literate programming — R Markdown. I use R Markdown to compose my homework, my creative component, and also some other class projects. I never used LaTeX before, but I want to give a try in the future.
