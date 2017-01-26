@@ -4,7 +4,6 @@ author: "Taikgun Song"
 header-includes:
    - \usepackage{amsmath}
    - \usepackage{graphicx}
-   - \usepackage{hyperref}
 output:
   html_document:
     toc: true
