@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post 1: Literate Programming '
+title: "Blog post 1: Literate Programming"
 author: "Katie Will"
 date: "1/25/2017"
 ---
