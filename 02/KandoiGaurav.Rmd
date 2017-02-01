@@ -1,5 +1,5 @@
 ---
-title: "Split-Apply-Combine..."
+title: "The powerful trio of Split-Apply-Combine"
 author: "Gaurav Kandoi"
 topic: "02"
 layout: post
@@ -23,6 +23,8 @@ Hadley discusses 12 key functions when describing the plyr package. These have t
 To illustrate the use of the split-apply-combine strategy, let's use the ChickWeights dataset. Briefly, the dataset is a time-series data that contains the weights of 50 chickens on 4 different protein diets measured at birth, every second day till day 20 and also for day 21.
 
 Assume we want to build a model to predict the weight of a chicken based on the time and diet. It is always a good practice to scale the data before feeding it to a prediction algorithm. To accomplish this, we use the split-apply-combine strategy. We will first split() the weights based on the 4 diets. Then, we will scale the weights for every diet using the lapply() function for lists. This often helps reduce apparent biases in data measurements. Finally, we will combine the scaled weights in the original dataset using the unsplit() function.
+
+The same can be accomplished using the plyr package and I think that is more intuitive and easy to follow.
 
 ```{r ChickWeight}
 chicks <- split(ChickWeight$weight,ChickWeight$Diet)
