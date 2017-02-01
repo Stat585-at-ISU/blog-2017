@@ -14,7 +14,8 @@ I learned split( ), apply( ), lapply( ), tapply( ), lapply( ), rbind( ), and cbi
 
 I used the data set *Titanic* to see the relationship between suvive status vs the class of the ship. I used `ddply` to arrange the dataset by Class first, by Survived second, and then use function `mutate` to add a new column which is the sum of the total number of the passengers in each class with each survive status. Finally, I plot the results with a bar chart by using ggplot2.
 
-Code:`
+Code:
+```{r global_options, include = FALSE}
 library("tidyverse")
 library("plyr")
 data("Titanic")
@@ -25,6 +26,5 @@ Titanic_Surv<-ddply(Titanic, .(Class,Survived), mutate, total=sum(Freq))
 
  Titanic_Surv %>% ggplot(aes(x=Class,y=total, fill=Survived)) + 
    geom_bar(stat="identity",position="dodge") + 
-   labs(x="Class",y="Total passengers",title="Class vs Survive Status")`
-   
-   
+   labs(x="Class",y="Total passengers",title="Class vs Survive Status")
+  ```
