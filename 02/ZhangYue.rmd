@@ -1,5 +1,5 @@
 ---
-title: "Split-Apply-Combine..."
+title: "Split-Apply-Combine Strategy for Data Analysis"
 author: "Yue Zhang"
 topic: "02"
 layout: post
