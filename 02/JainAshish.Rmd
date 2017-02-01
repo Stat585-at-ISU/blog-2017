@@ -5,21 +5,32 @@ topic: "02"
 layout: post
 root: ../../../
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    message = FALSE,
+    warning = FALSE
+)
+```
+##The Split-Apply-Combine Strategy
 
-##Split-Apply-Combine
+In base R there are split, lapply, mapply, rbind, and cbind functions that support the split-apply-combine strategy. The split function is used to split the data; lapply, mapply, and tapply to apply a particular function to the data; rbind and cbind to combine the processed data on the basis of rows and columns respectively. In my opinion, these functions are not sufficient. These functions only take the input data in the form of matrixes and vectors. If the working data is of high dimensions, ragged, irregular, or incomplete then these methods will have problems. For these type of datasets, data frame is the right choice for storing the data. Due to these issues, many other packages has been developed including plyr, dplyr, and data.table which have effective and efficient split-combine-apply functions. These packages can take data in any format including data frames, vectors, and lists thus making data handling very easy and effective.
 
-1. **Which (base R) functions do you know that support the split-apply-combine strategy? In your opinion, are these sufficient - state why or why not?**.
+We can use the **InsectSprays** dataset in base R. This dataset consists of the count of the insects in agricultural experimental units treated with different insecticides. Now, we can apply the split-apply-combine strategy to get the mean of the number of insects killed by each insecticide. In this, first, we will split the data on the basis of the type of the insecticide. 
+```{r, tidy=TRUE, tidy.opts=list(width.cutoff=60)}
+library("tidyverse")
+data("InsectSprays")
+count_by_spray <- with(InsectSprays, split(count, spray))
+```
 
-In base R there are split, lapply, mapply, rbind, and cbind functions that support the split-apply-combine strategy. The split function is used to split the data; lapply, mapply, and tapply to apply a particular function to the data; rbind and cbind to combine the processed data on the basis of rows and columns respectively. In my opinion, these functions are not sufficient. These functions only take the input data in the form of matrixes and vectors. If the working data is of high dimensions, ragged, irregular, or incomplete then these methods will have problems. For these type of datasets, data frame is the right choice for storing the data. Due to these issues, many other packages has been developed including plyr, dplyr, and data.table which have effective and efficient split-combine-apply functions. 
+After, that we will apply the mean function to the insecticide groups. 
+```{r, tidy=TRUE, tidy.opts=list(width.cutoff=60)}
+mean_by_spray <- lapply(count_by_spray, mean)
+```
 
-2. **Using a dataset of your choice, describe how you can use the split-apply-combine strategy for a part of the data analysis.**
-
-Now, we are going to work with a dataset on which we a
-
-```{r}
-library(rvest)
-url <- "http://www.nytimes.com/elections/results/florida"
-doc <- read_html(url)
-tables <- html_table(doc, fill=TRUE)
-head(tables[[2]])
+Then, after applying the function we will combine the data and then plot the mean number of insects killed by each insecticide.
+```{r, tidy=TRUE, tidy.opts=list(width.cutoff=60)}
+mean_by_spray <- lapply(count_by_spray, mean)
+inse_count<-data.frame(unlist(mean_by_spray))
+ggplot(inse_count)
 ```
