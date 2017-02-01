@@ -27,4 +27,4 @@ Titanic_Surv<-ddply(Titanic, .(Class,Survived), mutate, total=sum(Freq))
  Titanic_Surv %>% ggplot(aes(x=Class,y=total, fill=Survived)) + 
    geom_bar(stat="identity",position="dodge") + 
    labs(x="Class",y="Total passengers",title="Class vs Survive Status")
-  ```
+ 
