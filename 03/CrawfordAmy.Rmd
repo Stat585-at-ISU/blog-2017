@@ -1,0 +1,13 @@
+---
+title: "A Layered Grammar of Graphics"
+author: "Amy Crawford"
+topic: "03"
+layout: post
+root: ../../../
+---
+
+*How does having a grammar help with creating charts?*
+
+I think the biggest thing that having a grammer helps us to do while creating graphics is to be flexible. When we use this *Layered Grammar* we aren't confined to a set of well known, named graphics to visualize our data with. Whatever we think is appropriate for the data and the objective is what we can do, and we can do it with ease.
+
+It allows us to sort of ``think outside the box'' when we make charts. Even the most well known graphics can be easily decomposed an manipulated using the *Layered Grammar*. I enjoyed when, in the paper, Dr. Wickham wrote out the full syntax of the basic plots using the `layer()` function and worked from there to show the streamlined short hand syntax. It helps to think of each layer as it's own peice of the plot to be tweaked and polished instead of the entire graphic as one clunky peice that can be difficult to manipulate. Using *Layered Grammar* helps get my brain into gear to think about plotting in a more flexible and customizable way. 
