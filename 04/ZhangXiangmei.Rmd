@@ -11,8 +11,11 @@ root: ../../../
 - What are intervals, durations, periods, and instants?
 
 An instant is a specific moment in time, such as January 1st, 2012.
-An interval is a span of time that occurs between two specific instants and always have a positive length. But it is not very useful for date-time calculations
+
+An interval is a span of time that occurs between two specific instants and always have a positive length. But it is not very useful for date-time calculations.
+
 A duration is a generic time span that we can use for calculation, it will have an exact length in second units.
+
 A period is a non exact time span in larger units, such as minutes or years, and the length of these units varies over time.
 
 - (Why) do we need these distinctions?
