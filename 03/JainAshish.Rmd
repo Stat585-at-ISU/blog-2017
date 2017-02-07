@@ -1,0 +1,12 @@
+---
+title: "A Layered Grammar of Graphics"
+author: "Ashish Jain"
+topic: "03"
+layout: post
+root: ../../../
+---
+
+**How does having a grammar help with creating charts?**
+
+
+
