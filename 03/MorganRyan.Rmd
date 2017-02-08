@@ -1,4 +1,12 @@
+---
+title: "A Layered Grammar of Graphics"
+author: "Ryan Morgan"
+topic: "03"
+layout: post
+root: ../../../
+---
 
+## How does having a grammar help with creating charts?
 
 I thought that Hadley Wickham’s article on a grammar of graphics was very insightful. Early in the article, Wickham states that having a grammar gives us a foundation for understanding graphics. I admit, at first I was a little skeptical that the article would give any insightful information, but the article broke down parts of a plot in a way that made it easy to understand. Wickham started by introducing what ggplot’s grammar of graphics is. Having this grammar (and understanding the grammar) makes it a lot easier to create charts. I haven’t really used ggplot prior to this class, mostly because I was confused by all of the different commands and layers. Simply typing plot(x,y) and using the lines() function was easy enough, so I didn’t take the time to try and figure out ggplot. After reading through Wickham’s explanation of the grammar, ggplot seems very clear and pretty well laid out. I especially liked when the article discussed the hierarchy of defaults and showed what ggplot is “thinking” when we graph a simple plot, versus what we actually have to type in. 
 
