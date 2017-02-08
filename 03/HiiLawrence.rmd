@@ -6,17 +6,8 @@ layout: post
 root: ../../../
 ---
 
-## Background:
+How does having a grammar help with creating charts?
 
-Read the paper [A layered grammar of graphics](https://pdfs.semanticscholar.org/d779/6f85dabccd18673f382c100fc06f55e8b501.pdf) by Hadley Wickham (*Journal of Computational and Graphical Statistics*, 19(1), 2010, 3-28.)
+Prior to this, I have to admit that ggplot is just an another way for you to plot a data, maybe fancier. Reading this paper, I have to say that ggplot is not just an another way for graphics plotting but more than this. Because having a grammar does help with creating charts. 
 
-
-Write a blog post addressing the question: *How does having a grammar help with creating charts?*
-
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
+Understanding grammar in graphics is important. Before this, all I know for plotting is just follow the commands and make sure the commands are working with all variables that I throw in. If we understand the grammar in graphics, we can do more than just plotting a chart but a more meaningful charts to other people. The Napolean example is really cool. That single chart contains so many information but yet not messy at all. It's not hard to understand. Right now, I would definitely use more on ggplot. Thanks
