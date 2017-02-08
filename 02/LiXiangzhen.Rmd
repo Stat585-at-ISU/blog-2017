@@ -1,0 +1,29 @@
+---
+title: "Split-Apply-Combine Strategy"
+author: "Xiangzhen Li"
+topic: "02"
+layout: post
+root: ../../../
+---
+
+1. **Which (base R) functions do you know that support the split-apply-combine strategy? In your opinion, are these sufficient - state why or why not?**.
+
+As I have learned in stat 579 course, the function to apply is “apply”, “sapply”, “tapply” and “aggregate” etc. The function to split data I learned is “subset”. And there is “rbind” and “cbind” functions to combine data. These functions are not sufficient and the usage of these functions are not flexible. Most of the time, we need to write loops for split-apply-combine steps in data analysis. For example, the functions of “apply” family apply for different data type, and have different usage. In the beginning when I learned these functions, usage of these functions confused me. I need to check help for detail of these functions every time. The functions in package “plyr” is a great idea. It does not only aggregate “split-apply-combine” into one function, but also names the function with easy to remember way. After reading Hadley’s paper, I learned the basic idea of **ply functions in “plyr” package. The functions seem to be convenient. I will read more details when I apply these functions in the future.
+
+2. **Using a dataset of your choice, describe how you can use the split-apply-combine strategy for a part of the data analysis.**
+For the french fires experiment. We could use "ddply" to easily know the mean or other statistic values grouped by variables. For example:
+
+```{r}
+library(plyr)
+data(french_fries, package = "reshape2")
+ddply(french_fries, .(treatment), summarize, 
+      mean_potato = mean(potato, na.rm=T), 
+      mean_buttery = mean(buttery, na.rm=T)) 
+```
+The above result shows mean of potato and mean of buttery for each treatment. We could roughly tell the difference of three treatmen. We split data by treatment, and then apply mean function to each group, then combine the result as above table.
+```{r}
+ddply(french_fries, .(treatment, time), summarize,
+      mean_potato = mean(potato, na.rm=T), 
+      mean_buttery = mean(buttery, na.rm=T)) 
+```
+The above result shows mean of potato and mean of butery for each treatment and time.
