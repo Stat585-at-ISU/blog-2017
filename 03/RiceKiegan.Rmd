@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Layers Are Still In Style"
 author: "Kiegan Rice"
 topic: "03"
 layout: post
