@@ -19,4 +19,4 @@ a graph by the idea of layering. The main components of a layered grammar are *d
 type of data. Some of the above components come with defaults, which is very helpful when 
 incorporating multiple components together. The layered grammar gives us the freedom to 
 experiment with different components, explore new formats and assists us to explicitly explain
-complicated charts with the least effort.
+complicated charts with less effort.
