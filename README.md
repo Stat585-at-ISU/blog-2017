@@ -19,4 +19,4 @@ Instead of deleting the forked repo and forking the other repo again, follow the
 1. [What place does literate programming have in your workflow?](https://github.com/stat585-at-ISU/blog/blob/master/01/LastnameFirstname.Rmd) - Due Jan. 25
 2. [The split-apply-combine strategy](https://github.com/stat585-at-ISU/blog/blob/master/02/LastnameFirstname.Rmd) - Due Feb. 1
 3. [A grammar of graphics](https://github.com/stat585-at-ISU/blog/blob/master/03/LastnameFirstname.Rmd) - Due Feb. 8
-
+4. [Working with date and time](https://github.com/stat585-at-ISU/blog/blob/master/04/LastnameFirstname.Rmd) - Due Feb. 15
