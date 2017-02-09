@@ -1,0 +1,11 @@
+---
+title: "A Layered Grammar of Graphics"
+author: "Haiyang Zhang"
+topic: "03"
+layout: post
+root: ../../../
+---
+
+ *How does having a grammar help with creating charts?*
+
+Just like language grammar to make sentence better, the graphical grammar here is the foundation for making good graphs in programming language. It is my first time learning that there exists grammar of graphs, and I am inpressed by how powerful it is.
