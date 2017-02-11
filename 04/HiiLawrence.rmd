@@ -1,24 +1,18 @@
 ---
 title: "Working with date and time"
-author: "Firstname Lastname"
+author: "Lawrence Hii"
 topic: "04"
 layout: post
 root: ../../../
 ---
 
 
-## Background:
+##  What are intervals, durations, periods, and instants?
 
-Read the paper [Working with date and time: http://www.jstatsoft.org/v40/i03/](http://www.jstatsoft.org/v40/i03/)
-
-Write a blog post addressing the questions:
-
-- What are intervals, durations, periods, and instants?
-- (Why) do we need these distinctions?
+An instant is like a moment or specific moment in time. An interval is a span of time that occurs between two specific instants that means it can never be ambiguous. A duration is a time length that has exact length like seconds. On the other hand, the non-exact time is called period. Periods measures time units greater than seconds like minutes, hours etc.
 
 
-
-## Instructions:
+## (Why) do we need these distinctions?
 Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
 
 In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
