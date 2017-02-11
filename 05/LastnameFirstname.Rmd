@@ -1,0 +1,26 @@
+---
+title: "The S3 class system"
+author: "Firstname Lastname"
+topic: "05"
+layout: post
+root: ../../../
+---
+
+
+## Background:
+
+In class, we have briefly touched on working with S3 objects. There are various online sources on this subject available, e.g. Hadley Wickham's chapter on [S3 objects](http://adv-r.had.co.nz/OO-essentials.html#s3), Cyclismo's [tutorial](http://www.cyclismo.org/tutorial/R/s3Classes.html), Abishek Tiwari's [blog post](https://abhishek-tiwari.com/hacking/class-and-objects-in-r-s3-style), ...
+
+
+Write a blog post addressing **one** of these topics:
+
+- At an S3 class of your choice discuss a set of functions/methods/approaches that allow you to interact with the class. Make sure to give plenty of examples!
+- Explain how a user can define a new S3 class with objects and methods at a small example of your choice. 
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
