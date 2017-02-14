@@ -13,8 +13,4 @@ An instant is like a moment or specific moment in time. An interval is a span of
 
 
 ## (Why) do we need these distinctions?
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
+I think it's the same concept when we change the question to why do we need seconds, minutes, hours and etc. For me, the biggest reason is the structure of our time or calendar. It is not uniform or not each month carries the same days which leads to years where there is leap year. Because of this, we need some structure to capture these differences which I think it is important. With instances, intervals, durations and periods, they helps our analysis be more precise even down to split seconds results. And also, I do really like lubridate idea where it simplifies time related variables.
