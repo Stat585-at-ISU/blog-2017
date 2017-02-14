@@ -1,0 +1,26 @@
+---
+title: "Working with date and time"
+author: "Ashish Jain"
+topic: "04"
+layout: post
+root: ../../../
+---
+- (Why) do we need these distinctions?
+
+##Date and time
+
+In order to carry out a number of arithmatic operations with time data, a number of time related data objects has been supported by lubridate.
+
+####Instants
+When we capture a specific moment of time, it is called as instant. For example, 14th Feburary 2017, when we parse this into date in R, it will create an instant. It is basically a data type to store a particular moment in time. In `lubridate` package,  does not create a new class for instant objects. Instead, it recognizes any date-time object that refers to a moment of time as an instant.
+
+####Intervals
+In order to store a duration of time between two instants, intervals are used.
+
+####Durations
+
+####Periods
+
+
+
+
