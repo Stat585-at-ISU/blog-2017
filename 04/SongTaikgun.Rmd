@@ -7,10 +7,10 @@ root: ../../../
 ---
 The definitions of intervals, durations, periods, and instants are given below.
 
--Instant: An instant is a specific moment in time. Requires date and time.
--Interval: An interval is a span of time that occurs between two specific instants. Since instant is a specific moment, an interval cannot be ambiguous.
--Duration: An exact measure of a span of time, preferably in seconds although other units could be converted into seconds.
--Period: A non-exact measure of a span of time, usually units that are larger than seconds.
+- Instant: An instant is a specific moment in time. Requires date and time.
+- Interval: An interval is a span of time that occurs between two specific instants. Since instant is a specific moment, an interval cannot be ambiguous.
+- Duration: An exact measure of a span of time, preferably in seconds although other units could be converted into seconds.
+- Period: A non-exact measure of a span of time, usually units that are larger than seconds.
 
 
 These distinctions are important for arithmetic with date and time.
