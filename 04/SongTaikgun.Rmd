@@ -1,6 +1,6 @@
 ---
 title: "Working with date and time"
-author: "Firstname Lastname"
+author: "Taikgun Song"
 topic: "04"
 layout: post
 root: ../../../
