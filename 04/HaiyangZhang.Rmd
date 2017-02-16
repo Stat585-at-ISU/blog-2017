@@ -21,4 +21,4 @@ hours, and minutes.
 
 - (Why) do we need these distinctions?
 
-Not every year has 365 days and not every month has 30 days. We need a rule to follow to describe time. We need different time unit under different circumstance. For example, if you want to describe the time that Usain Bolt running 100 
+Not every year has 365 days and not every month has 30 days. We need a rule to follow to describe time. We need different time unit under different circumstance. For example, if you want to describe the time that Usain Bolt running 100 meters, you may want to use seconds. But if you want to describe one person's age, you may want to use years. So these distinctions are very important.
