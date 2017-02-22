@@ -1,0 +1,15 @@
+---
+title: "The S3 class system"
+author: "Kiegan Rice"
+topic: "05"
+layout: post
+root: ../../../
+---
+
+### Out of the two options for this blog post, I have decided to focus on the second one:  
+
+## Explain how a user can define a new S3 class with objects and methods at a small example of your choice.  
+
+```{r}
+
+```
