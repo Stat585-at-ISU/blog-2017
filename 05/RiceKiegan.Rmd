@@ -6,10 +6,28 @@ layout: post
 root: ../../../
 ---
 
-### Out of the two options for this blog post, I have decided to focus on the second one:  
+Out of the two options for this blog post, I have decided to focus on the second one:  
 
 ## Explain how a user can define a new S3 class with objects and methods at a small example of your choice.  
 
+I will define a new S3 class with objects and methods 
 ```{r}
+Pets <- function(isMammal=TRUE,animalType="hedgehog",breedType="African Pygmy")
+{
+        me <- list(
+                hasBabies = isMammal,
+                petType = animalType
+       )
+        class(me) <- append(class(me),"Pets")
+        return(me)
+}
+```
+Now that we have created this class, we can create new objects of this class by calling the function we have created. I will define two different pets using this class function.
 
+```{r}
+Obi <- Pets()
+Obi
+
+Oslo <- Pets(isMammal=TRUE, animalType="dog", breedType="Poochon")
+Oslo
 ```
