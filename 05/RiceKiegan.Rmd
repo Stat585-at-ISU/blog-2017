@@ -17,8 +17,8 @@ Pets <- function(isMammal=TRUE,animalType="hedgehog",breedType="African Pygmy",e
 {
         me <- list(
                 hasBabies = isMammal,
-                petType = animalType
-                breed = breedType
+                petType = animalType,
+                breed = breedType,
                 hasExercisedToday = exerciseToday
        )
         class(me) <- append(class(me),"Pets")
@@ -32,7 +32,7 @@ Now that we have created this class, we can create new objects of this class by 
 Obi <- Pets()
 Obi
 
-Oslo <- Pets(isMammal=TRUE, animalType="dog", breedType="Poochon", exerciseToday = TRUE)
+Oslo <- Pets(isMammal=TRUE, animalType="dog", breedType="Poochon", exerciseToday = FALSE)
 Oslo
 ```
 Now that we have created a class, we can create methods for this class. One example (similar to the example in the R tutorial) would be to set whether the pet has gotten exercise today.
