@@ -1,5 +1,5 @@
 ---
-title: "The S3 class system"
+title: "Creating an S3 class for pets"
 author: "Kiegan Rice"
 topic: "05"
 layout: post
@@ -10,7 +10,8 @@ Out of the two options for this blog post, I have decided to focus on the second
 
 ## Explain how a user can define a new S3 class with objects and methods at a small example of your choice.  
 
-I will define a new S3 class with objects and methods 
+I will define a new S3 class with objects and methods. This S3 class will be focused on Pets, so that I can keep track of the pets that live at my house.  
+
 ```{r}
 Pets <- function(isMammal=TRUE,animalType="hedgehog",breedType="African Pygmy",exerciseToday=FALSE)
 {
