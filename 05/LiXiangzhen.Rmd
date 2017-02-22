@@ -83,10 +83,10 @@ t1$YouAreoOnDuty
 t2<-RA(onduty = T, youname = "XZ1")
 t2
 t2$YouAreoOnDuty
-t2<-setOnDuty(t2,"Sick Leave")
+t2<-setOnDuty(t2,"Leave")
 t2$YouAreoOnDuty
 
 t3<-"someone"
-t3<-setOnDuty(t3,"Sick Leave")
+t3<-setOnDuty(t3,"Leave")
 
 ```
