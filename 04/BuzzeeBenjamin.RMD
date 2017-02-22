@@ -1,0 +1,19 @@
+---
+title: "Working with date and time"
+author: "Ben Buzzee"
+topic: "04"
+layout: post
+root: ../../../
+---
+
+
+Because of common adjustments like leap years and daylight savings time, incorpationing dates and times into a program can be quite difficult.
+To help overcome this challenge lubridate created new time related objects called instants, intervals, durations and periods.
+These new objects make it easier to perform precise date-time operations as well as manipulate date-time data.
+
+An instant is an object the represents a particular moment in time. They are specific and unique to each moment.
+An interval refers to the space of time that occurs between two instants. So an interval is the length of time
+that occurs betwen two specific and unique moments in time. A duration is an invariant span of time that is not
+attached to any particular moment. Seconds are used as the units due to their constant length. This makes arithmetic
+easy to do with durations in combination with other date types. A period refers to a span of time in a unit larger than
+a second. Periods are not of a consistent length since periods such as months and years are not of a consistent length.
