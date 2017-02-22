@@ -44,8 +44,8 @@ summaryStat.quarterback <- function(x){
     counter=counter+1
   }
 }
-
-
+```
+```{r,ECHO=F}
 summaryStat.runningback <- function(x){
    numPlayers = length(x$players)
   counter=1
