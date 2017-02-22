@@ -23,7 +23,8 @@ department <- function(name)  {
   class(s3object) <- name
   return (s3object)
 }
-
+```
+```{r}
 ##writing methods that will print the department's building name according to the persons major
 printDepartment <- function(major){
   #the following will call the appropriate method
@@ -44,17 +45,26 @@ printDepartment.AnimalScience <- function(x){
   print(toupper(x$major))
   print("You are in Kildee Hall")
 }
+```
 
+```{r}
 #Here we created an S3 object 
 printDepartmentBuilding <- department("Mathematics")
 #Method dispatching
 printDepartment(printDepartmentBuilding)
-
+# "MATHEMATICS"
+# "You are in Carver Hall"
+```
+```{r}
 printDepartmentBuilding <- department("Statistics")
 printDepartment(printDepartmentBuilding)
-
+# "STATISTICS"
+# "You are in Snedecor Hall"
+```
+```{r}
 printDepartmentBuilding <- department("AnimalScience")
 printDepartment(printDepartmentBuilding)
-
+# "ANIMALSCIENCE"
+# "You are in Kildee Hall"
 ```
 
