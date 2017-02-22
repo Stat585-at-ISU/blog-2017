@@ -44,8 +44,7 @@ summaryStat.quarterback <- function(x){
     counter=counter+1
   }
 }
-```
-```{r,ECHO=F}
+
 summaryStat.runningback <- function(x){
    numPlayers = length(x$players)
   counter=1
@@ -73,10 +72,9 @@ summaryStat.widereciever <- function(x){
 
 
 And so now we can use the summaryStat function on our three dataframes where the class of the dataframe determines which summaryStat() function is used.
-
-
 ```{r}
 summaryStat(qbs)
 summaryStat(rbs)
 summaryStat(wrs)
+```
 ```
