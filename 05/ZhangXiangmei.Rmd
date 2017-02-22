@@ -1,6 +1,6 @@
 ---
 title: "The S3 class system"
-author: "Firstname Lastname"
+author: "Xiangmei Zhang"
 topic: "05"
 layout: post
 root: ../../../
@@ -15,11 +15,15 @@ Write a blog post addressing **one** of these topics:
 For a given R object such as a vector, a matrix, a list or anything else we can change certain class type by simply attaching the ‘class’ attribute. S3 generics are methods belong to function, we can use a call "UseMethod()" to creat a method. Here is a small example.
 ```{r}
 o <- c("A","B","C","D","E","F") # a vector of characters
+```
 
-# Change object belongs to class type "grade"
+we can change object belongs to class type "grade" using the following codes:
+```{r}
 class(o) <- c("grade")  # or use next line
 attr(o, "class") <- "grade"
-
+```
+Now we can build a constructor and a simple method for "grade" class:
+```{r}
 # Constructor function for "grade" class
 grade <- function(x){
   structure(x,class="grade")
@@ -33,6 +37,9 @@ pass.grade <- function(x){
   cat("Grades fail the exam: ",x.nopass)
   
 }
+```
+Test the "grade" constructor and the new method":
+```{r}
 # create a new object of class "grade"
 new <- grade(c("C","D","G","A"))
 methods(class="grade") # check methods for class "grade"
