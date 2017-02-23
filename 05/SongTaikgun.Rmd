@@ -19,7 +19,7 @@ mood=rep(c("positive", "negative"),4),
 url=c("https://www.youtube.com/watch?v=3JWTaaS7LdU", "https://www.youtube.com/watch?v=EAmVdgoghOw", "https://www.youtube.com/watch?v=wyx6JDQCslE", "https://www.youtube.com/watch?v=woE2h5k1NW4", "https://www.youtube.com/watch?v=nDxhugRKZ8g", "https://www.youtube.com/watch?v=WrQyPHzzfCA", "https://www.youtube.com/watch?v=XFQpPbjJWTc", "https://www.youtube.com/watch?v=BIQ2D6AIys8"), stringsAsFactors=F)
 ```
 
-Here, I have constructed a simple function 'rec_music' that would defined return the above data set as a class.
+Here, I have constructed a simple function 'rec_music' that would define and return the above data set as a class.
 ```{r Define Class, eval=F}
 rec_music <- function(i=7)
 {
@@ -54,7 +54,7 @@ attr(,"class")
 
 ### Define Method
 
-A generic function 'setMusic' was defined to reserve the function name. Then 'UseMethod' function was used to target the function with name 'setMusic'. Then the code was written so that the class information of the object 'rec_music' was passed down to 'setMusic.rec_music'. For 'setMusic.rec_music' a simple function 'answer' was written so that one could change their preference for music recommendation.
+A generic function 'setMusic' was defined to reserve the function name. Then 'UseMethod' function was used to target the function with name 'setMusic'. Then the code was written so that the class information of the object 'rec_music' was passed down to 'setMusic.rec_music'. For 'setMusic.rec_music' a simple function 'answer' was written so that one could change their preference for music recommendation.  A simple 'browseURL' function maybe useful for checking out the music that was recommended for the user.
 ```{r Define method, eval=F}
 setMusic <- function(object)
 {
