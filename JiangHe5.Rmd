@@ -5,6 +5,7 @@ There are two common steps when it comes to define a new S3 class: creating  obj
 An example: 
 1. create an object: 
 veggie1 <- list("Broccoli", "Celery", "Spinach")
+
 2. assign an existing object a class
 class(veggie1) <- "like"  
 peference <- function(x){
