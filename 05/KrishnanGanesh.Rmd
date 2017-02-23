@@ -34,6 +34,7 @@ FootballerDescription <- function(name,category = "First Team", position = "Forw
     
               class(playerattrib) <- append(class(playerattrib),"FootballerDescription")
               return(playerattrib)
+              }
 ```
 
 In the above definition we see that we use the function class() to actually assign a name to the class. In order to
@@ -72,7 +73,7 @@ Forward, but if we want to change the position of the first player i.e. Philip L
 as below, and then verify if it has changed to the new value.
 ```{r setup, include=FALSE}
 player[[1]]$position
-player[[1]]<- playerposition(player1, "Left Back")
+player[[1]]<- playerposition(player[[1]], "Left Back")
 player[[1]]$position
 ```
 Now notice the different classes associated with player and player[[1]]. The former only has the class list while the latter has both the class list and FootballerDescription
