@@ -3,6 +3,7 @@
 There are two common steps when it comes to define a new S3 class: creating  objects and defining methods. Two ways to create a object: using the command class(x); another way is to use a constructor function. Then, I can use UseMethod() to use the generic methods or define new methods. 
 
 An example: 
+
 1. create an object: 
 veggie1 <- list("Broccoli", "Celery", "Spinach")
 
