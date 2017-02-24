@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
     warning = FALSE
 )
 source("https://bioconductor.org/biocLite.R")
-biocLite("Biostrings")
+#biocLite("Biostrings")
 library(Biostrings)
 ```
 #Explain how a user can define a new S3 class with objects and methods at a small example of your choice.
