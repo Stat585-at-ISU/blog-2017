@@ -50,7 +50,7 @@ funs <- list(
 )
 lapply(funs, function(f) f(x, na.rm=TRUE))
 ```
-Finally, we can modify the above function by removing duplicates and make it more general like below.
+Finally, we can modify the above function by removing duplicates and make it more general as following
 
 ```{r}
 x <- 1:10
