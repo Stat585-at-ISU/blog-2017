@@ -5,7 +5,6 @@ author: "Dinesh Poddaturi"
 topic: "06"
 layout: post
 root: ../../../
-output: github_document
 ---
 Everything in R can be written in the form of a function. R provides a flexible platform to create and manipulate functions. As Hadley mentioned in the book, we can store functions in lists, assign them to variables, can pass a function as an argument to another function, can create a function within a function and can return a function as a result of another function.
 
