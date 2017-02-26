@@ -1,0 +1,72 @@
+---
+title: "The S3 class system"
+author: "Ryan Morgan"
+topic: "05"
+layout: post
+root: ../../../
+---
+
+
+For a small example of definining a new S3 class with objects and methods, I will create 3 different data frames. The first data frame will be a list of 3 NFL quarterbacks with their passing yards for the 2016 season, the second will be a list of 3 NFL runningbacks with their rushing yards for the 2016 season, and the third will be a list of 3 NFL wide receivers and their receiving yards for the 2016 season.
+```{r}
+qbs <- data.frame(players = c("Matt Ryan","Kirk Cousins","Aaron Rodgers"), yards = c(4944,4917,4428))
+
+rbs <- data.frame(players = c("Zeke Elliot", "Jordan Howard", "Demarco Murray"), yards =c(1631, 1313, 1287))
+
+wrs <- data.frame(players=c("Julio Jones","Odell Beckham Jr.","Mike Evans"), yards = c(1409,1367,1321))
+```
+
+Currently, the class of all three dataframes (qbs, rbs, and wrs) is just "data.frame". I will define the class of each dataframe as the position group they represent (ex: the class of the qbs dataframe will be "quarterback").
+```{r}
+class(qbs) <- "quarterback"
+class(rbs) <- "runningback"
+class(wrs) <- "widereciever"
+```
+
+Now say we want a funciton that gives us a summary stat of the player, but we want a different summary depending on what class we input (either quarterback, runningback, or widereciever). We can write a set of functions using the generic.class() format. In this case, we will use a set of summaryStat functions to print out a summary statement of the players and their yardage statistic.
+```{r}
+summaryStat <- function(x)UseMethod("summaryStat")
+
+summaryStat.quarterback <- function(x){
+  numPlayers = length(x$players)
+  counter=1
+  
+  while(counter<numPlayers+1){
+    statement= paste("The number of passing yards for ",x$players[counter]," was: ",x$yards[counter], sep="")
+    
+    print(statement)
+    counter=counter+1
+  }
+}
+
+summaryStat.runningback <- function(x){
+   numPlayers = length(x$players)
+  counter=1
+  
+  while(counter<numPlayers+1){
+    statement= paste("The number of rushing yards for ",x$players[counter]," was: ",x$yards[counter], sep="")
+    
+    print(statement)
+    counter=counter+1
+  }
+}
+
+summaryStat.widereciever <- function(x){
+    numPlayers = length(x$players)
+  counter=1
+  
+  while(counter<numPlayers+1){
+    statement= paste("The number of receiving yards for ",x$players[counter]," was: ",x$yards[counter], sep="")
+    
+    print(statement)
+    counter=counter+1
+  }
+}
+```
+
+And so now we can use the summaryStat function on our three dataframes where the class of the dataframe determines which summaryStat() function is used.
+```{r}
+summaryStat(qbs)
+summaryStat(rbs)
+summaryStat(wrs)
+```
