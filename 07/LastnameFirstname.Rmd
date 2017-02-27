@@ -1,0 +1,23 @@
+---
+title: "Ethics of Reproducible Research"
+author: "Firstname Lastname"
+topic: "07"
+layout: post
+root: ../../../
+---
+
+
+## Background:
+
+The retracted Science paper `When contact changes minds` and the surrounding problems are discussed in detail in form of a  [case study](https://www.unh.edu/research/sites/www.unh.edu.research/files/docs/RIS/lacour_case.pdf) on Responsible Conduct of Research by the Research Office of the University of New Hampshire. Read through the case study (and maybe try to find out some more of the details on the case). 
+
+At the end of the case study, several questions are raised. Pick one of the questions and write a blog post discussing it. Make sure to state which question you are answering.
+
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
