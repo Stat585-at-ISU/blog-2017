@@ -7,30 +7,8 @@ root: ../../../
 ---
 
 
-## Background:
+## Making Code Easier to Write and Maintain Using Functional Programming
 
-Read through the chapter on [Functional Programming](http://adv-r.had.co.nz/Functional-programming.html) of Hadley Wickham's book on *Advanced R Programming*.
+Using functional programming, it is much easier to write the code because you do not have to write as many lines of code.  For example, if you wanted to apply the same function to multiple columns of a dataset, such as replace certain values with NAs to denote missingness or gathering summary statistics for multiple variables, it is much easier to write the code using a for loop or an apply function instead of hard-coding what you want done with every single column in a data set.  I know this is useful for me, because we will be obtaining a dataset with over 100 variables with some missing values soon for my research, so using this to change the missingness will be much easier than hardcoding in all of those columns.
 
-Write a blog post discussing the question:
-
-Regard the code below and describe in what way(s) the idea of functional programming makes code easier to write and maintain.
-
-```
-x <- 1:10
-funs <- list(
-  sum = sum,
-  mean = mean,
-  median = median
-)
-lapply(funs, function(f) f(x, na.rm=TRUE))
-```
-
-
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
+At the same time, maintaining code is made even simpler than when you're writing it because if you make a mistake in the coding, you can just change the function to make a fix by changing just one or two rows of code.  Otherwise, you would have to go into every single line of code you had made to manipulate the data, which is simply tedious work, and can be even more prone to errors based on a mistake by us humans.  I know if I hard-code for the dataset we are set to receive soon, I would make a simple mistake in the coding somewhere along the way, and it would be tedious enough just to find the mistake.  These are some of the reasons functional programming simply makes sense in coding in R, or any other language.
