@@ -38,7 +38,7 @@ funs <- list(
 )
 lapply(funs, function(f) f(x))
 ```
-The above code still has some duplicates (na.rm=TRUE), we can take them out and pass as arguments inside lapply like below
+The above code has some duplicates (na.rm=TRUE), we can take them out and pass as arguments inside lapply like below
 
 ```{r}
 x <- 1:10
@@ -49,7 +49,7 @@ funs <- list(
 )
 lapply(funs, function(f) f(x, na.rm=TRUE))
 ```
-Finally, we can modify the above function by removing duplicates and make it more general as following
+Finally, we can modify the above function by removing redundent code and make it more general as following
 
 ```{r}
 x <- 1:10
