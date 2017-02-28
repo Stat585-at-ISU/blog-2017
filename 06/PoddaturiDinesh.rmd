@@ -31,32 +31,32 @@ We can still make the above function more sophisticated by using a nice property
 The below code demonstrates how we can store functions in a list and call it whenever we need
 ```{r}
 x <- 1:10
-funs <- list(
+someStatistics <- list(
   sum = function(x) sum(x, na.rm = TRUE),
   mean = function(x) mean(x, na.rm = TRUE),
   median = function(x) median(x, na.rm = TRUE)
 )
-lapply(funs, function(f) f(x))
+lapply(someStatistics, function(f) f(x))
 ```
 The above code has some duplicates (na.rm=TRUE), we can take them out and pass as an argument inside lapply like below
 
 ```{r}
 x <- 1:10
-funs <- list(
+someStatistics <- list(
   sum =function(x,...)sum(x,...),
   mean = function(x,...)mean(x,...),
   median = function(x,...)median(x,...)
 )
-lapply(funs, function(f) f(x, na.rm=TRUE))
+lapply(someStatistics, function(f) f(x, na.rm=TRUE))
 ```
 Finally, we can modify the above function by removing redundent code and make it more general as following
 
 ```{r}
 x <- 1:10
-funs <- list(
+someStatistics <- list(
   sum =sum,
   mean = mean,
   median = median
 )
-lapply(funs, function(f) f(x,na.rm=TRUE))
+lapply(someStatistics, function(f) f(x,na.rm=TRUE))
 ```
