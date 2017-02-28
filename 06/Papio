@@ -1,0 +1,23 @@
+---
+title: "Functional Programming"
+author: "Joe Papio"
+topic: "06"
+layout: post
+root: ../../../
+---
+
+
+## Regard the code below and describe in what way(s) the idea of functional programming makes code easier to write and maintain.
+
+```{r}
+x <- 1:10
+funs <- list(
+  sum = sum,
+  mean = mean,
+  median = median
+)
+lapply(funs, function(f) f(x, na.rm=TRUE))
+```
+
+
+
