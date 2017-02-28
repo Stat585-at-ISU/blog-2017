@@ -6,7 +6,7 @@ topic: "06"
 layout: post
 root: ../../../
 ---
-Everything in R can be written in the form of a function. R provides a flexible platform to create and manipulate functions. As Hadley mentioned in the book, we can store functions in lists, assign them to variables, can pass a function as an argument to another function, can create a function within a function and can return a function as a result of another function.
+Everything in R can be written in the form of a function. R provides a flexible platform to create and manipulate functions. As Hadley mentioned in the book, we can store functions in lists, assign them to variables, pass a function as an argument to another function, create a function within a function and return a function as a result of another function.
 
 For the given example, we could use functional programming in different ways. When I began programming in R, I used to call functions in each line like the following 
 
@@ -16,7 +16,7 @@ sum <- sum(x,na.rm=TRUE)
 mean <- mean(x,na.rm=TRUE)
 median <- median(x,na.rm=TRUE)
 ```
-The above code gives proper results without any errors. If we want to use these functions in multiple places, we need to type/copy the same lines wherever we need them, which results in duplicate code which will eventually lead to bugs in the code. We could make these functions general and call them inside a function like below
+The above code gives proper results without any errors. If we want to use these functions in multiple places, we need to type/copy the same lines wherever we need them, which results in duplicate code which will eventually lead to bugs in the code. We could make these functions general and call them inside a function
 ```{r}
 x <- 1:10
 someStatistics <- function(x){
