@@ -1,0 +1,36 @@
+---
+title: "Functional Programming"
+author: "Firstname Lastname"
+topic: "06"
+layout: post
+root: ../../../
+---
+
+
+## Background:
+
+Read through the chapter on [Functional Programming](http://adv-r.had.co.nz/Functional-programming.html) of Hadley Wickham's book on *Advanced R Programming*.
+
+Write a blog post discussing the question:
+
+Regard the code below and describe in what way(s) the idea of functional programming makes code easier to write and maintain.
+
+```
+x <- 1:10
+funs <- list(
+  sum = sum,
+  mean = mean,
+  median = median
+)
+lapply(funs, function(f) f(x, na.rm=TRUE))
+```
+
+
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
