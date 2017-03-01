@@ -23,7 +23,7 @@ position he plays in, his age and if he is currently injured.
 
 The FootballerDescription as defined below has therefore been made as a class. 
 
-```{r setup, include=FALSE}
+```{r}
 FootballerDescription <- function(name,category = "First Team", position = "Forward", age = "", injured= FALSE)
   {
       playerattrib <- list(name = name,
@@ -41,7 +41,7 @@ In the above definition we see that we use the function class() to actually assi
 define a method for a class, the UseMethod command is used as shown below to define a hierarchy of functions for
 appropriate actions. The UseMethod command is used here in the function playerposition for setting up the position
 of the player if it needs to be changed.
-```{r setup, include=FALSE}
+```{r}
 playerposition <- function(pos, newposition)
          {
                    UseMethod("playerposition",pos)
@@ -59,25 +59,25 @@ playerposition.FootballerDescription <- function(pos, newposition)
 Lets define a list for listing the 11 players with each element having the class list and the class
 FootballerDescription and describing one footballer.
 
-```{r setup, include=FALSE}
+```{r}
 player<- list()
 ```
 Lets go ahead and describe the first player, and then we can go ahead and define the whole set of 11 players say in
 FC Bayern München
-```{r setup, include=FALSE}
+```{r}
 player[[1]]<- FootballerDescription(name = "Philip Lahm", age = "29")
 player[[2]]<- FootballerDescription(name = "Thomas Müller", age = "27")
 ```
 Both player[[1]] and player[[2]] took the segment "position" of the player fied as default which is described as 
 Forward, but if we want to change the position of the first player i.e. Philip Lahm to say Left Back, we can do it 
 as below, and then verify if it has changed to the new value.
-```{r setup, include=FALSE}
+```{r}
 player[[1]]$position
 player[[1]]<- playerposition(player[[1]], "Left Back")
 player[[1]]$position
 ```
 Now notice the different classes associated with player and player[[1]]. The former only has the class list while the latter has both the class list and FootballerDescription
-```{r setup, include=FALSE}
+```{r}
 class(player)
 class(player[[1]])
 ```
