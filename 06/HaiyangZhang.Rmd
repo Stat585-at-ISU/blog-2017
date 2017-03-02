@@ -7,7 +7,7 @@ root: ../../../
 ---
 
 
-Regard the code below and describe in what way(s) the idea of functional programming makes code easier to write and maintain.
+##Regard the code below and describe in what way(s) the idea of functional programming makes code easier to write and maintain.
 
 ```
 x <- 1:10
