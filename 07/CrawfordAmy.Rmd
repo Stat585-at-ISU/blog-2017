@@ -1,0 +1,17 @@
+---
+title: "Ethics of Reproducible Research"
+author: "Amy Crawford"
+topic: "07"
+layout: post
+root: ../../../
+---
+
+
+## Background:
+
+The retracted Science paper `When contact changes minds` and the surrounding problems are discussed in detail in form of a  [case study](https://www.unh.edu/research/sites/www.unh.edu.research/files/docs/RIS/lacour_case.pdf) on Responsible Conduct of Research by the Research Office of the University of New Hampshire. Read through the case study (and maybe try to find out some more of the details on the case). 
+
+At the end of the case study, several questions are raised. Pick one of the questions and write a blog post discussing it. Make sure to state which question you are answering.
+
+## Question 10/
+What are some of the consequences of LaCour's behavior? For Boockman and Kalla? For Green? For other researchers in this field? For UCLA? For activists?
