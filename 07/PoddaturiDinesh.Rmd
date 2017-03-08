@@ -10,7 +10,7 @@ As mentioned in the case LaCour’s raw data appeared to be too orderly and clea
 
 ## The main takeaways from this case are :
 
-•	Never lie/delete raw data.
+•	Never lie about raw data or delete it or modify it to get predicted results.
 
 •	Conduct the study ethically, obtain approval from the IRB to conduct the study.
 
