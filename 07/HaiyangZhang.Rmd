@@ -1,3 +1,11 @@
+---
+title: "Ethics of Reproducible Research"
+author: "Haiyang Zhang"
+topic: "07"
+layout: post
+root: ../../../
+---
+
 ## 9. This case features a long-distance collaboration between a faculty member and a graduate student. What issues does the case raise about collaborating with others?##
 
 In this case study, Dr. Green was collaborating with LaCour with an article retracted from Sience because that LaCour fabricated the data. This unexpected issue affected the reputation of Dr. Green, so in order to avoid this happen on us, I want to talk about the issues raised in this case study and how should we prevent these issues when we collaborate with others (especially long-distance collaborating). 
