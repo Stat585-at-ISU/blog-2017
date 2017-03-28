@@ -33,3 +33,7 @@ about the same code, I wonder if a set of fresh eyes and a different perspective
 details or mistakes I had not noticed. In this sense I am skeptical of myself and would appreciate
 any attempts to reproduce the same results. Particularly when an important scientific conclusion is on
 the line, I don't see how a result can be validated if the research is not reproducible.
+
+These papers also hint at some topics we have seen before. Creating a project with reproducibility in mind
+forces the authors to use ideas from literate programming that help with communication, collaboration and workflow. Additionally,
+ethical issues like those we saw with Michael LaCour's work can be avoided altogether if researchers are held to a reproducible standard. Hopefully as computational sciences mature reproducibility becomes a cornerstone of professional publications.
