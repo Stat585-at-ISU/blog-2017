@@ -1,32 +1,15 @@
 ---
-title: "Literate Programming..."
-author: "Firstname Lastname"
-topic: "01"
+title: "Reproducible Research"
+author: "Matt Stuart"
+topic: "08"
 layout: post
 root: ../../../
 ---
 
-## Background:
+## Constrasts and Comparisons of the Reproducibility Papers
 
-Donald Knuth is maybe best known for his work on TeX, which made LaTeX possible, which in turn is being used in (all?) scientific publications ranging from papers to monographs across disciplines.
+Obviously, both papers discuss the issue of reproducibility of research, and they both discuss the *WaveLab* package that was produced to be able to reproduce the research on wavelets, along with other methods of reproducibility such as *SparseLab* and *SymmLab* in the second paper.  The themes of issues involving reproducibility are common in both papers, since the first paper discusses the issues in their line of reproducing data and the second goes into why some researchers would be weary of making research that are reproducible.
 
-In order to write TeX, Donald Knuth first invented `WEB`, a programming system that combines text and code.  This is the first system implementation of "literate programming". Derived from  `WEB` is `noweb` (by Norman Ramsey), which introduces the concept of inter`weaving` text and code chunks.
+Because the first paper was written in the 1990s and the internet was not fully available as it is today, that paper is more focused on the future of reproducibility of research, why it is so important, and how it can be implemented using a variety of methods such as the internet.  Specifically, it went into the topic of problems in their own line of work, explaining why those issues led to the invention of *WaveLab*. This is why the introduction of *WaveLab* was so important to this first paper, since it was one of the first such computer programs to allow other researchers to conduct their own experiments.  The other important takeaway from this paper was the discussion on the internet as well.  As earlier pointed out, the internet was growing at a rapid pace at that time, so methods to reproduce research can be easily and efficiently given to each other.
 
-`Sweave` (Friedrich Leisch, 2002) is an R package that uses `noweb` to interweave LaTeX and S-code ... and that brings us finally to `knitr` (Yihui Xie, 2012--), which is the package behind RWeave and RMarkdown. 
-
-
-
-Watch Donald Knuth's lecture on Literate Programming given at useR!2016 [available here](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming).
-
-
-Based on the idea behind literate programming that Donald Knuth discusses in his talk, 
-write a blog post on **how you have or could make use of literate programming in your work**. 
-
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
+The second paper *15 Years of Reproducible Research* dives more into this topic, while discussing how the introduction of *WaveLab* has been a sort of benchmark, since it had been cited 690 times since its inception until 2007 for other's research.  
