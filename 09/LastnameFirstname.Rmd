@@ -1,0 +1,22 @@
+---
+title: "Literate Programming..."
+author: "Firstname Lastname"
+topic: "09"
+layout: post
+root: ../../../
+---
+
+## Background:
+
+There are a lot of different licenses in R under which authors can make their packages available, see e.g. https://www.r-project.org/Licenses/. 
+
+Assume you are the author of a successful and popular R package. Which license would you pick? Write a blog post discussing some of the pros (and cons) of the license. Discuss what would happen if a software company wants to use the package as part of their code and sell a product. What happens if the code doesn't work as expected and a user tries to sue you?
+
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
