@@ -1,7 +1,7 @@
 
 ---
-title: "Literate Programming..."
-author: "Firstname Lastname"
+title: "Reproducible Research"
+author: "Dinesh Poddaturi"
 topic: "01"
 layout: post
 root: ../../../
