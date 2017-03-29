@@ -1,32 +1,11 @@
 ---
-title: "Literate Programming..."
-author: "Firstname Lastname"
-topic: "01"
+title: "Reproducibility in the large-scale computation world"
+author: "Ashish Jain"
+topic: "08"
 layout: post
 root: ../../../
 ---
 
-## Background:
+## Reproducible research: Commonalities and changes in the themes and solutions
 
-Donald Knuth is maybe best known for his work on TeX, which made LaTeX possible, which in turn is being used in (all?) scientific publications ranging from papers to monographs across disciplines.
-
-In order to write TeX, Donald Knuth first invented `WEB`, a programming system that combines text and code.  This is the first system implementation of "literate programming". Derived from  `WEB` is `noweb` (by Norman Ramsey), which introduces the concept of inter`weaving` text and code chunks.
-
-`Sweave` (Friedrich Leisch, 2002) is an R package that uses `noweb` to interweave LaTeX and S-code ... and that brings us finally to `knitr` (Yihui Xie, 2012--), which is the package behind RWeave and RMarkdown. 
-
-
-
-Watch Donald Knuth's lecture on Literate Programming given at useR!2016 [available here](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming).
-
-
-Based on the idea behind literate programming that Donald Knuth discusses in his talk, 
-write a blog post on **how you have or could make use of literate programming in your work**. 
-
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
+The central theme of both the research papers is based on the reproducibility of results of a research paper in the field of mathematics and statistics. The first paper talks about bridging the gap of knowledge between the students, guide, and the collaborators by combining the figures and the code that generates the figures. The research paper was published in the year 1995, the same time when literate programming was becoming popular (Big thank to Donald E. Knuth). This paper has in length described the problems that researchers face when they try to reproduce results and figures from a paper. Sometimes, they even find it hard to reproduce their own results.They have also talked about that the integration of working example of the algorithm or code which can help other researchers to fully understand the results. So, for making things easier they developed a tool which helps researchers to follow literate programming and making things cleaner. The second paper, which was also written by the same author evaluates the performance of literate programming tools and large-scale computational analysis after 15 years. The main problem they find is to making researchers aware of this kind of tools. Although, they have developed a number of literate programming tools in different research fields including WaveLab, BeamLab, SparseLab but still they feel that these tools are not properly utilized by researchers. Apart from that, a lot of focus was given to the field of large-scale computational analysis and the underlying problems and errors. Being a bioinformatics researcher, I know how difficult it is to follow or reproduce the results of the research papers that uses large-scale computational analysis. These papers have once again made me realized the power of literate programming and how it contributes to research in a big way.
