@@ -1,7 +1,6 @@
-
 ---
-title: "Reproducible Research"
-author: "Dinesh Poddaturi"
+title: "Literate Programming..."
+author: "Firstname Lastname"
 topic: "01"
 layout: post
 root: ../../../
@@ -30,11 +29,4 @@ Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own
 In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
 
 Once you are done, **create a pull request** to upload your changes to the original repository!
-
-
-
-
-
-
-
 
