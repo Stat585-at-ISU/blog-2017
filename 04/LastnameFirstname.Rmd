@@ -1,7 +1,7 @@
 ---
-title: "Working with date and time"
+title: "Reproducible Research"
 author: "Firstname Lastname"
-topic: "04"
+topic: "08"
 layout: post
 root: ../../../
 ---
@@ -9,14 +9,10 @@ root: ../../../
 
 ## Background:
 
-Read the paper [Working with date and time: http://www.jstatsoft.org/v40/i03/](http://www.jstatsoft.org/v40/i03/)
+In his 1995 paper
+[WaveLab and Reproducible Research ](http://statweb.stanford.edu/~donoho/Reports/1995/wavelab.pdf) David L Donoho is making a case for reproducible research. About 15 years laters, Donoho is re-evaluating the situation of reproducible research in the paper [15 Years of Reproducible Research in Computational Harmonic Analysis](http://statweb.stanford.edu/~donoho/Reports/2008/15YrsReproResch-20080426.pdf).
 
-Write a blog post addressing the questions:
-
-- What are intervals, durations, periods, and instants?
-- (Why) do we need these distinctions?
-
-
+Based on these two papers, write a blog post discussing the commonalities and changes in the themes and solutions.
 
 ## Instructions:
 Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
