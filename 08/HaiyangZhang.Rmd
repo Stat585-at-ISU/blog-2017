@@ -1,0 +1,9 @@
+---
+title: "Literate Programming..."
+author: "Haiyang Zhang"
+topic: "01"
+layout: post
+root: ../../../
+---
+# 
+## Based on these two papers, write a blog post discussing the commonalities and changes in the themes and solutions.
