@@ -1,0 +1,7 @@
+---
+title: "Reproducible Research"
+author: "Taikgun Song"
+topic: "01"
+layout: post
+root: ../../../
+---
