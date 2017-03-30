@@ -21,9 +21,11 @@ reproducibility is more likely to leads to a better work in research since ** if
 has been extended by several graduent students, professors, and extended to several other 
 tools. Rather then just publish package, software publishing is also one new type of 
 reproducibility. In that sense, it's unevitable that author is responsible for user feedback, 
-code maintance (like wavelab for over 15 years), developing easy for use interfance (like the extension tool SparseLab and BeamLab),  developing simple demos which illustrate basic features and so on.
+code maintance (like wavelab for over 15 years), developing easy for use interfance (like the extension tool SparseLab and BeamLab),  developing simple demos which illustrate basic features and so on. 
 
 
-Nowadayes, more and more people are taking the reproducible work seriously. It might 
-seems like this would take more time and effort at the first beginning. 
-But researcher can definitely benefit from it later on.
+Nowadayes, more and more people are taking the reproducible work seriously. 
+Also as the author mentioned in the 2008's paper **development
+of reproducible computational research skills is a fundamental part of graduate education and
+postdoctoral education**. I can't agree with this any more.  Reproducibility is defenitely useful during my research experience  since often I have to go back to check what I've done after several months, even year. This reproducible stucture helps me 
+a lot.
