@@ -1,5 +1,5 @@
 ---
-title: "Literate Programming..."
+title: "Freedom for Authors vs Freedom for Users"
 author: "Firstname Lastname"
 topic: "09"
 layout: post
