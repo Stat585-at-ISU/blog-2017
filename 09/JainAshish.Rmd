@@ -1,0 +1,16 @@
+---
+title: "Licenses in R"
+author: "Ashish Jain"
+topic: "09"
+layout: post
+root: ../../../
+---
+
+## Background:
+
+There are a lot of different licenses in R under which authors can make their packages available, see e.g. https://www.r-project.org/Licenses/. 
+
+Assume you are the author of a successful and popular R package. Which license would you pick? Write a blog post discussing some of the pros (and cons) of the license. Discuss what would happen if a software company wants to use the package as part of their code and sell a product. What happens if the code doesn't work as expected and a user tries to sue you?
+
+I would like to use the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 (AGPL-3) for my R package. I believe the most important thing in carrying out research is freedom. By opting for AGPL-3, the program can be freely distributed and shared across the research community. This will also give freedom to other developers to improve the code by modifying the existing code. This will leads to a faster development of the code in terms of features which helps in improving it. In addition to that, this license makes the mandatory that the improved or modified program will become publically available for sharing and use by the community. This will greatly benefit the research community as they will get improved version of the program.
+Due to the terms specified in the AGPL-3 license, a software company could not sell a product after using the package as a part of their code. They have to make it publically available. In the license, it has also been clearly stated that under this license there is no warranty given for the program. This means that if the code doesn't work as expected, a user can't sue the person who developed the program.
