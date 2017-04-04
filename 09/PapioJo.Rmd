@@ -6,8 +6,8 @@ layout: post
 root: ../../../
 ---
 
-## Which liecense would you pick?
+## Which license would you pick?
 
-
+I opted to read through the [MIT license](https://www.r-project.org/Licenses/MIT). 
 
 
