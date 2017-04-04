@@ -1,1 +1,11 @@
+---
+title: "Licenses in R"
+author: "Amy Crawford"
+topic: "09"
+layout: post
+root: ../../../
+---
 
+Assume you are the author of a successful and popular R package. Which license would you pick? Write a blog post discussing some of the pros (and cons) of the license. Discuss what would happen if a software company wants to use the package as part of their code and sell a product. What happens if the code doesn’t work as expected and a user tries to sue you?
+
+After reading throught the licenses at https://www.r-project.org/Licenses/ I would pick the GNU GENERAL PUBLIC LICENSE Version 2.
