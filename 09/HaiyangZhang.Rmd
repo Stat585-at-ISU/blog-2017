@@ -1,0 +1,12 @@
+---
+title: "Literate Programming..."
+author: "Haiyang Zhang"
+topic: "09"
+layout: post
+root: ../../../
+---
+
+## Which license would you pick? Write a blog post discussing some of the pros (and cons) of the license. Discuss what would happen if a software company wants to use the package as part of their code and sell a product. What happens if the code doesn't work as expected and a user tries to sue you?
+
+
+
