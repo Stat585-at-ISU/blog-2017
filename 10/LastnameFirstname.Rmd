@@ -1,0 +1,21 @@
+---
+title: "My first R package"
+author: "Firstname Lastname"
+topic: "10"
+layout: post
+root: ../../../
+---
+
+## Background:
+
+By now all of you have collected some experience in writing an R package. How did that go? What were the difficulties? Have you got a story to share about a CRAN submission that went particularly well (or not)?
+
+Write a blog post on your experience. 
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
+
