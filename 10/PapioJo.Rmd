@@ -1,0 +1,13 @@
+---
+title: "My first R package"
+author: "Jo Papio"
+topic: "10"
+layout: post
+root: ../../../
+---
+
+## Statistician's First R Package
+
+By now all of you have collected some experience in writing an R package. How did that go? What were the difficulties? Have you got a story to share about a CRAN submission that went particularly well (or not)?
+
+The whole process still seems a big daunting. But having gone through it, it feels like I understand enough now to put the pieces together thwne the time is right.
