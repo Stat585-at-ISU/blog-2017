@@ -1,1 +1,7 @@
-
+---
+title: "My First R Package"
+author: "Amy Crawford"
+topic: "10"
+layout: post
+root: ../../../
+---
