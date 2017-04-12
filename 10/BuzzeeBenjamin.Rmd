@@ -8,7 +8,7 @@ root: ../../../
 
 
 
-##By now all of you have collected some experience in writing an R package. How did that go? What were the difficulties? Have you got a story to share about a CRAN submission that went particularly well (or not)?
+By now all of you have collected some experience in writing an R package. How did that go? What were the difficulties? Have you got a story to share about a CRAN submission that went particularly well (or not)?
 
 
 Going into lab  I had no experience writing R packages. One point of confusion for me was dealing with all the folders when intializing the package.
