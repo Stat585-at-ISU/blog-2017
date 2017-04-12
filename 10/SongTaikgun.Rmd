@@ -1,0 +1,8 @@
+---
+title: "My first R package"
+author: "Taikgun Song"
+topic: "10"
+layout: post
+root: ../../../
+---
+
