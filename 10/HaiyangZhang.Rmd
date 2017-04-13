@@ -1,0 +1,9 @@
+---
+title: "My first R package"
+author: "Haiyang Zhang"
+topic: "10"
+layout: post
+root: ../../../
+---
+
+My first R package was created during lab 5 with 2 other classmates. Our package is a simple one that can help people calculate proportion easier, which can let you calculate proportion by the whole column or row.
