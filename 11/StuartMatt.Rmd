@@ -1,22 +1,13 @@
 ---
 title: "Interactive Statistical Graphics"
-author: "Firstname Lastname"
+author: "Matt Stuart"
 topic: "11"
 layout: post
 root: ../../../
 ---
 
-## Background:
+## Interactive Statistical Graphics
 
-The ASA sections on Statistical Graphics and Statistical Computing are hosting a [video library](http://stat-graphics.org/movies/) of movies showcasing the 'state of the art' of the times. This library contains countless interesting insights into the history of computing and graphics. Watch J.W.Tukey demonstrate the  [Prim-9 system](http://stat-graphics.org/movies/prim9.html).
+Aside from what we have discussed in this class, I really have no experience with interactive graphics.  I have only used applications such as Plotly, GGVis, and the Shiny app in what we have done in class, with our labs, and in my final project as well.  However, I have realized that these tools are very useful in many statistics applications.  It makes data easier to read and manipulate for both non-statisticians on the project as well as people who are not privy to the project to create their own analyses.
 
-In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
-
+In terms of the PRIM-9 system, I was actually fairly surprised that even the small capability of rotating data was available in the 1970s.  Obviously more advanced systems have been created since then, but rotation does show interesting, and possibly important, details of data that otherwise was not available at the time.  Graphics definitely have been ingrained as an important part of statistics over the years since the debut of PRIM-9, and I know I will use more interactive graphics in terms of my research going forward.
