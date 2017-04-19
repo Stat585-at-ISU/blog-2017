@@ -1,5 +1,5 @@
 ---
-title: "Interactive Statistical Graphics"
+title: "PRIM-9: the building blocks of interactivity"
 author: "Firstname Lastname"
 topic: "11"
 layout: post
