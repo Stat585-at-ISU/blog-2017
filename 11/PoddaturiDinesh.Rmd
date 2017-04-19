@@ -1,1 +1,29 @@
+---
+title: "Interactive Statistical Graphics"
+author: "Dinesh Poddaturi"
+topic: "11"
+layout: post
+root: ../../../
+---
 
+We all know the old English idiom “A picture is worth a thousand words”, in our context (Interactive graphics) I think we all agree that “An interactive graph is worth 50 tables, or at least 10 tables”.
+
+In the video, Tukey introduced PRISM-9 system that can do picturing, rotation, isolation and masking. It’s very interesting how far the interactive graphics advanced compared to the video where Tukey used the keyboard to manipulate graphs. Now, by writing some code or with clicks we can change many aspects of a graph. 
+
+I have experienced interactive graphics in this past few years, especially in this semester. I have learned how to make interactive graphics using ggplot, plotly, ggvis and Shiny. In fact, my project for this course has interactive graphs in it. It’s really fascinating how we can transform real world data into an interactive graph which speaks for itself. As technology advances we need more sophisticated ways to build an interactive graph that is easy to write and maintain. 
+
+
+
+
+## Background:
+
+The ASA sections on Statistical Graphics and Statistical Computing are hosting a [video library](http://stat-graphics.org/movies/) of movies showcasing the 'state of the art' of the times. This library contains countless interesting insights into the history of computing and graphics. Watch J.W.Tukey demonstrate the  [Prim-9 system](http://stat-graphics.org/movies/prim9.html).
+
+In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
+
+## Instructions:
+Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
+
+In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
+
+Once you are done, **create a pull request** to upload your changes to the original repository!
