@@ -1,21 +1,14 @@
 ---
 title: "Interactive Statistical Graphics"
-author: "Firstname Lastname"
+author: "Ashish Jain"
 topic: "11"
 layout: post
 root: ../../../
 ---
+In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now?
 
-## Background:
+The video is quite interesting as it shows the advancement of the visualization techniques and technology. The idea of understanding the data by visualizing it was quite amazing. Because of these ideas, we have made huge advancements in technology. Now it takes only one line of code to plot the 2D dataset compared to complicated code and bulky infrastructure earlier.
 
-The ASA sections on Statistical Graphics and Statistical Computing are hosting a [video library](http://stat-graphics.org/movies/) of movies showcasing the 'state of the art' of the times. This library contains countless interesting insights into the history of computing and graphics. Watch J.W.Tukey demonstrate the  [Prim-9 system](http://stat-graphics.org/movies/prim9.html).
+Prior to this class, I have used various javascript frameworks to build interactive statistical graphics including Jquery, D3.js, and Chart.js. I have used these frameworks in the front-end of applications which interacts with the back-end application (database). I have used Java and PHP for making the interaction between the front-end and back-end of the application. During this class, I came to know about the shiny package for developing interactive graphs and I find it easier than frameworks I earlier used. I think anything which gives the user the freedom to make changes for the better understanding of the dataset is a part of interactive statistical graphics. The packages like `plotly` and `ggvis` have made plots more interactive. 
 
-In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
 
