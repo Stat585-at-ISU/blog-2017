@@ -6,7 +6,7 @@ layout: post
 root: ../../../
 ---
 
-## how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
+#how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
 
 Before taking this class, I am only familiar and ecperienced interactive statistical graphics with RShiny program. Now we have learnt about ggvis, plotly and crosstalk, they are also great ways to create an interactive statistical graphic.
 
