@@ -7,7 +7,7 @@ root: ../../../
 ---
 
 
-####In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
+###In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
 
 
 In this video, Dr. Turkey introduced the RRIM-9, interactive multi-dimensional data display and analysis system. It is a surprise that we already have a pretty helpful interactive data display system in 1970s. The system could let users view the data up to 9 dimensions. The users could rotate the data or view the projections of the data in any two-dimensional level. 
