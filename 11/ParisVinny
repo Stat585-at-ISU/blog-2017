@@ -1,0 +1,10 @@
+---
+title: "Interactive Graphics"
+author: "Vinny Paris"
+topic: "11"
+layout: post
+root: ../../../
+---
+First I honestly haven't ever dealt much with interactive graphics outside 538's website. And I haven't ever did anything with it until we got into shiny.
+
+Second, I would just like to say that when the narrator said "in up to 9 dimensions" which such pride I did laugh hard. They were so happy with their cutting edge software. And it was great for the time it's just we improved so much. I did strongly like how the goals havent changed at all, we are just fine tuning. Letting us look at more than two dimensions at a time, controlled subsets, ability to gain large amounts of information about the data without just number dumping complicated statsitics I consider to be some of the the more important operations of interactive graphics. I will never look at R's five number summary of some data for example and will instead just make a plot without even thinking about it. Graphics can convey so much if they are done right but getting it right is hard, espeically when there can be lots of questions. This really benefits interactive graphics instead of trying to hard code 20+ simple static graphics. I enjoyed the video, it made me laugh.   
