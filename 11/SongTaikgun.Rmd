@@ -6,16 +6,5 @@ layout: post
 root: ../../../
 ---
 
-## Background:
 
-The ASA sections on Statistical Graphics and Statistical Computing are hosting a [video library](http://stat-graphics.org/movies/) of movies showcasing the 'state of the art' of the times. This library contains countless interesting insights into the history of computing and graphics. Watch J.W.Tukey demonstrate the  [Prim-9 system](http://stat-graphics.org/movies/prim9.html).
-
-In the light of this video, write a blog post discussing the use of interactive graphics: how have you experienced interactive statistical graphics (and in which systems)? What operations do you consider to be part of interactive statistical graphics now? 
-
-## Instructions:
-Save a **copy** of this file, replacing "Lastname" and "Firstname" with your own and *leave the original unedited*.
-
-In **your copy**, replace the `title:` and `author:` fields in the YAML above, while leaving the remaining fields intact. Remove the background and the instructions sections and write your blog post!
-
-Once you are done, **create a pull request** to upload your changes to the original repository!
-
+Although interactive graphics was not a brand new topic for me since STAT579 and STAT503 covered some interactive graphics such as `ggobi` (Dr. Cook also talked about the Prim-9 video!).  It was during the graphics working group where I was introduced to interactive graphics in depth. For example, I learned about packages that creates interactive graphical interface such as plotly and watched presentation of other graduate students currently developing on a new R package about interactive graphics.  After understanding the concept of interactive graphics, I started to see the concept used in real life: from google map application, NYT articles to any infographics used in the field of business where plots, charts and tables talk to each other. Since we are talking about "Big data" nowadays, interactive visualization of a massive data will be ever more important. On top of that, interactive graphics draw attention of the people that uses it, and I hope to apply interactive graphics when running a business in the future.
