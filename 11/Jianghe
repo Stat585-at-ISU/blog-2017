@@ -1,0 +1,13 @@
+---
+title: "Interactive Statistical Graphics"
+author: "He Jiang"
+topic: "11"
+layout: post
+root: ../../../
+--- 
+
+ My experience of interactive statistical graphing mostly comes from the class for the past several weeks: plotly, ggvis, crosstalk. It was mind blowing and very interesting to learn. Watcing the vedio also makes appreciate how far we have come along in this area. In the video, Tuckey introduced the PRISM-9 system, which can do picturing, rotation, isolation and masking up to 9 dimensions. However, now users have more options to play with the plot than the PRISM-9 system, such as selecting the sepecific region of points, showing connections in different plots from cross talk and so on. We have come long ways since 1970's, and I am looking forward to learning more and watching this area grow a lot in the near future. 
+
+
+
+
