@@ -1,0 +1,15 @@
+---
+title: "Licenses"
+author: "Aaron Baker"
+topic: "09"
+layout: post
+root: ../../../
+---
+
+
+## Assume you are the author of a successful and popular R package. Which license would you pick? Write a blog post discussing some of the pros (and cons) of the license. Discuss what would happen if a software company wants to use the package as part of their code and sell a product. What happens if the code doesn't work as expected and a user tries to sue you?
+
+Looking over the notes, I would probably pick GNU general licence Version 3. In general, without any motivation, I would not particularly want to charge anyone for my code. There may come a time where somethiing I do is such a large project, however, that it is worth having people pay me for it. 
+
+Also, the general lack of liability within the license makes it very worthwhile. I don't want to be held responsible for something that say, my code was not intended to do, but it was tried to use for that purpose anyway, in particular. Since there is no liability, there shouldn't be any problems with the code not working and anyone suing over the end results. Therefore, I don't think any problems could ensue based on this. Perhaps if it was in the scope of a larger package of a product then there could be some legal implications that I do not understand.
+
