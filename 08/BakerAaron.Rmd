@@ -1,0 +1,28 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a---
+title: "Literate Programming..."
+author: "Aaron Baker"
+topic: "01"
+layout: post
+root: ../../../
+---
+# 
+## Based on these two papers, write a blog post discussing the commonalities and changes in the themes and solutions.
+
+The basic idea of the two papers seems very similar to me as they focus on reproducible research. One clear and notable difference is the both apparent claim, and acceptance, of the existence of other packages that do similar things to their original concept that  have stemmed (they believe) from their work on the subject.
+
+In the second article, the imperative, however, appears more dire. While in the first their example was merely that they were not sure if they chose the right graphs by honest mistake, the very veracity of research sans the code upon which it is based comes into question. The authors state that, if the code and program that it is based off of are not provided, the very research is incomplete. This goes beyond their first article that simply talks about the problems with potential and accidental gaffs. 
+
+In the second article, the emphasis is on the inherent danger, just like within the experiments themselves, to accidental mistakes within the coding process. It is not merely a small confusion but the very basis of the research itself that they call into question without the appropriate documentation. Further, they discus in the second paper the cases where they were inable to influence even their own students, at times, to follow good practices of reproducible work. Something not covered within the first.
+
+
